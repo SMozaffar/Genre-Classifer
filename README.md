@@ -1,6 +1,6 @@
 # 🎶 Music Genre Classification using CNN + RNN 🎵
 
-This project implements a **Music Genre Classification** system using a **Convolutional Neural Network (CNN)** combined with a **Recurrent Neural Network (RNN)**. The model is trained on the [GTZAN dataset](http://marsyas.info/downloads/datasets.html), a well-known dataset in the field of music information retrieval. The primary goal of this project is to classify audio tracks into one of 10 music genres based on their acoustic characteristics.
+This project implements a **Music Genre Classification** system using a **Convolutional Neural Network (CNN)** combined with a **Recurrent Neural Network (RNN)**. The model is trained on the [GTZAN dataset](http://marsyas.info/downloads/datasets.html). The primary goal of this project is to classify audio tracks into one of 10 music genres based on their acoustic characteristics.
 
 ## 🚀 Project Overview
 
@@ -100,3 +100,8 @@ Here are some key papers that inspired the architecture and techniques used in t
    ```bash
    git clone https://github.com/yourusername/music-genre-classification.git
    cd music-genre-classification
+   ```
+
+### 2. **Install Dependencies:**:
+
+   
