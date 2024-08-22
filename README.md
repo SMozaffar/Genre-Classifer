@@ -1,52 +1,102 @@
-# Genre-Classifer
+# 🎶 Music Genre Classification using CNN + RNN 🎵
 
-### audio_processor.py
+This project implements a **Music Genre Classification** system using a **Convolutional Neural Network (CNN)** combined with a **Recurrent Neural Network (RNN)**. The model is trained on the [GTZAN dataset](http://marsyas.info/downloads/datasets.html), a well-known dataset in the field of music information retrieval. The primary goal of this project is to classify audio tracks into one of 10 music genres based on their acoustic characteristics.
 
+## 🚀 Project Overview
 
-**compute_melgram(audio_path)**
+The main objective of this project is to develop a deep learning model that can classify audio samples into 10 different genres by analyzing their **mel-spectrograms**. The approach combines the strengths of **CNNs** for feature extraction and **RNNs** for capturing temporal dependencies in audio data.
 
-*What it does:*
-1. Input: Takes the path of an audio file.
-2. Output: Returns a mel-spectrogram with dimensions (1, 1, 96, 1366), where 96 is the number of mel-bins, and 1366 is the number of time frames.
+The project includes:
+- **Audio preprocessing** using mel-spectrogram extraction.
+- **CNN + RNN architecture** for learning both spatial (CNN) and temporal (RNN) patterns.
+- **Training** and **testing** routines with model evaluation.
+- **Batch processing** to handle large datasets efficiently on GPU (or CPU if necessary).
 
-*Key Steps:*
-Set parameters:
-1. SR (sampling rate): 12000 Hz.
-2. N_FFT: 512 (the window size for the FFT).
-3. N_MELS: 96 (number of mel-bins).
-4. HOP_LEN: 256 (hop length between frames).
-5. DURA: 29.12 seconds (duration to ensure 1366 time frames).
+### 🎯 Target Music Genres:
+The model classifies audio into one of the following 10 genres:
+- **Blues**
+- **Classical**
+- **Country**
+- **Disco**
+- **HipHop**
+- **Jazz**
+- **Metal**
+- **Pop**
+- **Reggae**
+- **Rock**
 
-Load the audio:
-1. The audio file is loaded at a sample rate of 12000 Hz using librosa.load().
-2. src is the signal (audio data), and sr is the sample rate.
+## 📁 Dataset: GTZAN
 
-Padding or trimming:
-1. If the audio signal is shorter than the required duration (DURA), it's padded with zeros.
-2. If it's too long, it's trimmed to match the required number of samples (n_sample_fit).
+The project utilizes the **GTZAN dataset**, which contains 1,000 audio tracks evenly distributed across 10 music genres (100 tracks per genre). Each track is a 30-second excerpt and is provided as a `.wav` file.
 
-Compute mel-spectrogram:
-1. A mel-spectrogram is calculated using librosa.feature.melspectrogram().
-2. The spectrogram is converted to a log scale using librosa.logamplitude().
+**Dataset Details**:
+- **Number of tracks**: 1000
+- **Duration of each track**: 30 seconds
+- **Sampling rate**: 22.05 kHz
+- **Genres**: Blues, Classical, Country, Disco, HipHop, Jazz, Metal, Pop, Reggae, Rock
 
-Reshape: The result is reshaped to the format (1, 1, 96, 1366).
+You can download the dataset from the [official GTZAN dataset page](http://marsyas.info/downloads/datasets.html).
 
+### 🎵 Audio Preprocessing
 
-**compute_melgram_multiframe(audio_path, all_song=True)**
+Before feeding the audio data into the model, we extract **mel-spectrograms** from each track. The mel-spectrogram provides a time-frequency representation of the audio signal, making it suitable for processing by convolutional layers.
 
-*What it does:*
-1. Input: Takes the path of an audio file and a flag (all_song) to determine if the entire song should be processed.
-2. Output: Returns a mel-spectrogram of multiple frames in the shape (N, 1, 96, 1366), where N is the number of frames.
+#### Steps for Audio Preprocessing:
+1. **Resampling**: All audio tracks are resampled to a consistent sample rate of 12 kHz.
+2. **Mel-Spectrogram Extraction**: Using **Librosa**, mel-spectrograms are generated with the following parameters:
+   - **Number of mel bins**: 96
+   - **FFT window size**: 512
+   - **Hop length**: 256
+   - **Duration of each frame**: 29.12 seconds
+3. **Log-Scaling**: The mel-spectrograms are log-scaled to improve model performance by stabilizing variations in amplitude.
 
-*Key Steps:*
-Parameters:
-1. Similar parameters as the compute_melgram function, but with an additional DURA_TRASH variable to remove unwanted parts of the song.
+## 🛠️ Techniques Used
 
-Trim the song:
-1. If all_song=False, it removes some initial and ending parts of the song.
+### 📊 Mel-Spectrograms
 
-Multi-frame spectrogram:
-1. If the song is longer than the required duration (DURA), the code splits the audio into multiple frames and computes a mel-spectrogram for each frame.
+Mel-spectrograms are 2D time-frequency representations of audio signals. We treat them like images, allowing us to apply convolutional neural networks (CNNs) for feature extraction.
 
-Concatenation:
-1. The mel-spectrograms of each frame are concatenated along the first dimension to get a result of shape (N, 1, 96, 1366).
+### 🧠 CNN + RNN Architecture
+
+We use a combination of CNN and RNN layers to process the mel-spectrograms:
+
+- **CNN Layers**:
+  - The **CNN** part extracts local spatial features from the mel-spectrogram. This helps capture the structure of audio signals in both time and frequency domains.
+  - Five convolutional layers followed by **max-pooling** and **batch normalization** are used to reduce dimensionality and improve generalization.
+  
+- **RNN Layers**:
+  - The **RNN** (specifically, GRU) captures sequential dependencies in the mel-spectrograms. Since music signals are time-dependent, RNNs are well-suited for learning the temporal aspects of the data.
+  - Two **GRU** layers are used after the CNN layers to capture the sequential patterns.
+
+- **Output Layer**:
+  - A **fully connected (Dense) layer** followed by a **sigmoid activation** is used to make genre predictions. The sigmoid function is used since this is a multi-label classification problem.
+
+### 🎓 Training Process
+
+- **Loss function**: `CrossEntropyLoss` is used for multi-class classification.
+- **Optimizer**: The model is trained using the `Adam` optimizer with a learning rate of 0.001.
+- **Batch size**: Default batch size of 32 is used for training, but it can be customized via the command line.
+- **GPU support**: The model is trained on **CUDA** (if available) or falls back to **CPU**.
+
+## 📜 Relevant Research Papers
+
+Here are some key papers that inspired the architecture and techniques used in this project:
+
+1. **[Automatic Tagging Using Deep Convolutional Neural Networks](https://arxiv.org/abs/1606.00298)**  
+   *Keunwoo Choi et al., 2016*  
+   This paper introduces the use of deep CNNs for automatic music tagging and genre classification using mel-spectrograms.
+
+2. **[CRNN: Convolutional Recurrent Neural Networks for Music Classification](https://arxiv.org/abs/1609.04243)**  
+   *Keunwoo Choi et al., 2016*  
+   This paper details the benefits of combining CNNs and RNNs for audio classification tasks. It demonstrates how RNNs can capture temporal dependencies in audio data.
+
+3. **[Music-AutoTagging-Keras](https://github.com/keunwoochoi/music-auto_tagging-keras)**  
+   *Keunwoo Choi’s GitHub repository*  
+   A popular repository that implements automatic music tagging using Keras, providing inspiration for many implementations in this field.
+
+## 📦 Installation and Running the Model
+
+### 1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/music-genre-classification.git
+   cd music-genre-classification
