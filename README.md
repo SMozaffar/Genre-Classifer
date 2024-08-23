@@ -6,8 +6,7 @@ This project implements a **Music Genre Classification** system using a **Convol
 
 The main objective of this project is to develop a deep learning model that can classify audio samples into 10 different genres by analyzing their **mel-spectrograms**. The approach combines the strengths of **CNNs** for feature extraction and **RNNs** for capturing temporal dependencies in audio data.
 
-![Mel-Spectrogram](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Dbc9s0KfznzFYO0Q7OOOWg.png)
-*Example of a mel-spectrogram.*
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mel_spectrogram_example.png/400px-Mel_spectrogram_example.png" alt="Mel-Spectrogram" width="300"/>
 
 The project includes:
 - **Audio preprocessing** using mel-spectrogram extraction.
