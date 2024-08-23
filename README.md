@@ -1,10 +1,13 @@
 # 🎶 Music Genre Classification using CNN + RNN 🎵
 
-This project implements a **Music Genre Classification** system using a **Convolutional Neural Network (CNN)** combined with a **Recurrent Neural Network (RNN)**. The model is trained on the [GTZAN dataset](http://marsyas.info/downloads/datasets.html), a well-known dataset in the field of music information retrieval. The primary goal of this project is to classify audio tracks into one of 10 music genres based on their acoustic characteristics.
+This project implements a PyTorch adaptation of the model from [Choi et al.](https://github.com/keunwoochoi/music-auto_tagging-keras) to train a **Genre Classification** system using a **Convolutional Neural Network (CNN)** combined with a **Recurrent Neural Network (RNN)**. The model is trained on the [GTZAN dataset](http://marsyas.info/downloads/datasets.html). The primary goal of this project is to classify audio tracks into one of 10 music genres based on their acoustic characteristics.
 
 ## 🚀 Project Overview
 
 The main objective of this project is to develop a deep learning model that can classify audio samples into 10 different genres by analyzing their **mel-spectrograms**. The approach combines the strengths of **CNNs** for feature extraction and **RNNs** for capturing temporal dependencies in audio data.
+
+![Mel-Spectrogram](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mel_spectrogram_example.png/400px-Mel_spectrogram_example.png)
+*Example of a mel-spectrogram.*
 
 The project includes:
 - **Audio preprocessing** using mel-spectrogram extraction.
@@ -100,3 +103,8 @@ Here are some key papers that inspired the architecture and techniques used in t
    ```bash
    git clone https://github.com/yourusername/music-genre-classification.git
    cd music-genre-classification
+   ```
+
+### 2. **Install Dependencies:**:
+
+   
