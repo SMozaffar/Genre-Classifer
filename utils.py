@@ -10,14 +10,16 @@ from math import floor
 from audio_processor2 import compute_melgram, compute_melgram_multiframe
 
 
+# Utility functions for data loading, saving, processing
 
-# Functions Definition
 
+# Save dataset to an HDF5 file
 def save_data(path, data, name):
     with h5py.File(path + name, 'w') as hf:
         hf.create_dataset('data', data=data)
 
 
+# Load dataset from an HDF5 file
 def load_dataset(dataset_path):
     with h5py.File(dataset_path, 'r') as hf:
         print('List of arrays in this file: \n', hf.keys())
@@ -27,6 +29,7 @@ def load_dataset(dataset_path):
     return data, labels, num_frames
 
 
+# Save data, labels, and frame numbers to an HDF5 file.
 def save_dataset(path, data, labels, num_frames):
     with h5py.File(path, 'w') as hf:
         hf.create_dataset('data', data=data)
@@ -34,6 +37,7 @@ def save_dataset(path, data, labels, num_frames):
         hf.create_dataset('num_frames', data=num_frames)
 
 
+# Sort and print the genre predictions in descending order of confidence scores
 def sort_result(tags, preds):
     result = zip(tags, preds)
     sorted_result = sorted(result, key=lambda x: x[1], reverse=True)
@@ -45,11 +49,13 @@ def sort_result(tags, preds):
     print()
 
 
+# Predict the label with the highest score
 def predict_label(preds):
     labels = preds.argsort()[::-1]
     return labels[0]
 
 
+# Load ground truth labels from a text file
 def load_gt(path):
     with open(path, "r") as insTest:
         gt_total = []
@@ -59,6 +65,7 @@ def load_gt(path):
     return gt_total
 
 
+# Plot and save a confusion matrix
 def plot_confusion_matrix(cnf_matrix, classes, title):
     cnfm_suma = cnf_matrix.sum(1)
     cnfm_suma_matrix = np.repeat(cnfm_suma[:, None], cnf_matrix.shape[1], axis=1)
@@ -88,7 +95,7 @@ def plot_confusion_matrix(cnf_matrix, classes, title):
     fig.savefig(title)
 
 
-# Melgram computation
+# Mel-spectrogram extraction function
 def extract_melgrams(list_path, MULTIFRAMES, process_all_song, genre_mapping=None):
     if genre_mapping is None:
         # Define a mapping of genre folder names to numerical labels (0 to 9)

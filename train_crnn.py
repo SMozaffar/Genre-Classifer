@@ -5,28 +5,41 @@ import numpy as np
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
-from genre_net import MusicTaggerCRNN  # Assuming your CRNN model in PyTorch
+from genre_net import Genrefier_CRNN  
 from utils import extract_melgrams, load_dataset, plot_confusion_matrix
 
+
+# List of genres
 genres = ['blues', 'classical', 'country', 'disco', 'hiphop', 'jazz', 'metal', 'pop', 'reggae', 'rock']
 
 
 def train_model(args):
-    # Set device to MPS if available, otherwise CPU
+    """
+    Steps:
+    1. Load the mel-spectrogram dataset or extract mel-spectrograms from audio.
+    2. Train the model on the training data.
+    3. Test the model on the test data (if specified).
+    4. Save model weights periodically.
+
+    Args:
+    - args: Command line arguments provided by the user.
+    """
+    # Set device to MPS or CPU
     device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
 
-    # Load or extract mel-spectrogram dataset
+    # Load or extract mel-spectrograms
     if args.load_db:
         X_train, y_train, num_frames_train = load_dataset(args.train_dataset)
         X_test, y_test, num_frames_test = load_dataset(args.test_dataset)
     else:
-        X_train, y_train, num_frames_train = extract_melgrams(args.train_songs_list, args.multiframes, process_all_song=False)
-        X_test, y_test, num_frames_test = extract_melgrams(args.test_songs_list, args.multiframes, process_all_song=False)
+        X_train, y_train, num_frames_train = extract_melgrams(args.train_songs_list, args.multiframes, process_all_song=True)
+        X_test, y_test, num_frames_test = extract_melgrams(args.test_songs_list, args.multiframes, process_all_song=True)
 
+    # Debug: ensure 10 unique labels in train and test
     print(f"Unique labels in y_train: {np.unique(y_train)}")
     print(f"Unique labels in y_test: {np.unique(y_test)}")
 
-    # Convert numpy arrays to PyTorch tensors and ensure correct shape
+    # Convert numpy arrays to PyTorch tensors, ensure correct shape
     X_train = torch.tensor(X_train, dtype=torch.float32).view(-1, 1, 96, 1366).to(device)
     X_test = torch.tensor(X_test, dtype=torch.float32).view(-1, 1, 96, 1366).to(device)
     Y_train = torch.tensor(np.eye(args.nb_classes)[y_train], dtype=torch.float32).to(device)
@@ -37,14 +50,14 @@ def train_model(args):
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
 
     # Initialize the model
-    model = MusicTaggerCRNN().to(device)
+    model = Genrefier_CRNN().to(device)
 
-    # Define optimizer and loss function
+    # Optimizer and loss 
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
 
+    # Training loop
     if args.train:
-        # Training loop
         model.train()
         for epoch in range(1, args.epochs + 1):
             epoch_loss = 0.0
@@ -68,18 +81,17 @@ def train_model(args):
                 # Accumulate loss
                 epoch_loss += loss.item()
 
-                # Print information for one song in this batch
-                song_index = i * args.batch_size  # Get the index of the first song in this batch
-                song_path = song_paths[song_index]  # Path to the song
-                song_label = y_train[song_index]  # Integer label of the song
-                song_genre = genres[song_label]  # Genre that corresponds with the label
-
+                # Print (path, label, genre) for one song in batch
+                song_index = i * args.batch_size  # Index of first song
+                song_path = song_paths[song_index]  # Path to song
+                song_label = y_train[song_index]  # Integer label of song
+                song_genre = genres[song_label]  # Corresponding genre
                 print(f"Song Path: {song_path}, Label: {song_label}, Genre: {song_genre}")
 
             print(f"Epoch [{epoch}/{args.epochs}], Loss: {epoch_loss/len(train_loader)}")
 
-            # Save model weights every 5 epochs
-            if epoch % 5 == 0:
+            # Save model weights every 10 epochs
+            if epoch % 10 == 0:
                 torch.save(model.state_dict(), args.weights_path + args.model_name + f"_epoch_{epoch}.pth")
                 print(f"Saved model at epoch {epoch} to {args.weights_path}")
 
@@ -88,25 +100,24 @@ def train_model(args):
         print("Testing the model...")
         model.eval()
 
-        # Use DataLoader for batch processing to prevent memory issues
+        # Use DataLoader for batch processing TODO: fix memory issues
         test_dataset = TensorDataset(X_test, Y_test)
         test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False)
 
-        # Initialize lists to collect results
         predictions = []
         true_labels = []
 
-        # Disable gradient calculations during testing for efficiency
+        # Disable gradient calculations
         with torch.no_grad():
             for batch_X, batch_Y in test_loader:
                 # Move batch data to the correct device
                 batch_X = batch_X.to(device)
                 batch_Y = batch_Y.to(device)
 
-                # Forward pass to get model predictions
+                # Forward pass 
                 outputs = model(batch_X)
 
-                # Get predicted labels (taking the class with the highest score)
+                # Get predicted labels (select class with highest probability)
                 _, predicted = torch.max(outputs, dim=1)
 
                 # Collect predictions and true labels
@@ -116,11 +127,11 @@ def train_model(args):
         # Compute confusion matrix
         cnf_matrix = confusion_matrix(true_labels, predictions)
 
-        # Plot confusion matrix (assuming you have a plot_confusion_matrix utility function)
+        # Plot confusion matrix 
         plot_confusion_matrix(cnf_matrix, classes=np.arange(args.nb_classes), title='Confusion Matrix')
 
 
-# Command line arguments (simplified for example)
+# Command line arguments
 if __name__ == "__main__":
     import argparse
 
@@ -142,7 +153,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-     # Assume song_paths is a list of the file paths of the songs
+    # song_paths is a list of the file paths of the songs
     song_paths = open(args.train_songs_list).read().splitlines()
 
 
