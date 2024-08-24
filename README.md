@@ -100,20 +100,6 @@ Some key papers that inspired the architecture and techniques used in this proje
 
 # Model Performance Analysis
 
-## Classification Task and Genres
-
-The task involves classifying 10 different genres of music from a dataset of audio files, with the genres being:
-- **Blues**
-- **Classical**
-- **Country**
-- **Disco**
-- **Hip-hop**
-- **Jazz**
-- **Metal**
-- **Pop**
-- **Reggae**
-- **Rock**
-
 The performance of the model has been evaluated using the following metrics:
 - **Precision**: Ratio of correctly predicted positive observations to all predicted positive observations.
 - **Recall**: Ratio of correctly predicted positive observations to all observations in the actual class.
@@ -199,10 +185,7 @@ The ROC curves plot the true positive rate (recall) against the false positive r
 - **Feature Engineering**: In addition to mel-spectrograms, other audio features like **tempo**, **beat structure**, and **instrumentation detection** could be incorporated to improve the model's ability to distinguish between similar genres.
 - **Hyperparameter Tuning**: Refining the hyperparameters, including learning rates, dropout rates, and optimization techniques, may yield improvements, particularly for genres where the model currently struggles.
 
----
-
 ## Conclusion
 
 The current model achieves a balanced performance across most genres, with an overall accuracy of **77%**. While it performs exceptionally well on genres like **Classical**, **Jazz**, and **Metal**, it struggles with genres that have more overlapping characteristics, such as **Blues** and **Country**. By addressing these limitations through targeted techniques such as data augmentation, feature engineering, and advanced architectures, there is significant potential to further improve the model's performance.
 
----
