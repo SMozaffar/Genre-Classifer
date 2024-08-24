@@ -163,7 +163,7 @@ The following table summarizes the model's performance across all genres:
 
 ### Confusion Matrix
 
-![Confusion Matrix](./Confusion%20Matrix.png)
+![Confusion Matrix](plots/Confusion%20Matrix.png)
 
 The confusion matrix offers detailed insights into how well the model distinguishes between different genres. It highlights:
 - High accuracy for genres such as **Classical**, **Jazz**, and **Metal**.
@@ -172,7 +172,7 @@ The confusion matrix offers detailed insights into how well the model distinguis
 
 ### Precision-Recall Curves
 
-![Precision Recall Curve](./precision_recall_curve.png)
+![Precision Recall Curve](plots/precision_recall_curve.png)
 
 The precision-recall curves provide a graphical representation of the trade-off between precision and recall for each genre. 
 
@@ -181,7 +181,7 @@ The precision-recall curves provide a graphical representation of the trade-off 
 
 ### ROC Curves and AUC Scores
 
-![ROC Curve](./roc_curve.png)
+![ROC Curve](plots/roc_curve.png)
 
 The ROC curves plot the true positive rate (recall) against the false positive rate, giving a clearer view of how well the model distinguishes each genre. The Area Under the Curve (AUC) is a strong indicator of classification performance:
 - **Classical**, **Jazz**, and **Metal** achieve AUC scores above 0.90, indicating excellent classification capability.
