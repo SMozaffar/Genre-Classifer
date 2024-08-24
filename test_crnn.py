@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
 import argparse
@@ -52,6 +53,7 @@ def test_model(args):
 
             # Get predictions for each frame in song
             outputs = model(X_test[previous_numFrames:previous_numFrames + num_frames])
+            outputs = F.softmax(outputs, dim=1)
             results[previous_numFrames:previous_numFrames + num_frames] = outputs.cpu().numpy()
 
             # Normalization and frame-by-frame label prediction

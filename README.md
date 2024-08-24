@@ -109,87 +109,116 @@ Here are some key papers that inspired the architecture and techniques used in t
 
    
 
-## Results/Analysis
-# Model Evaluation Report
+# Model Performance Analysis
 
-## Overview:
-- **Accuracy:** 77% (The model correctly classified 77% of the test samples.)
-- **Macro avg:** 0.80 precision, 0.77 recall, 0.77 F1-score (Average performance across all classes, treating each class equally.)
-- **Weighted avg:** 0.80 precision, 0.77 recall, 0.77 F1-score (Performance averages, weighted by the number of instances in each class.)
+## Classification Task and Genres
 
-## Class-wise Analysis:
+The task involves classifying 10 different genres of music from a dataset of audio files, with the genres being:
+- **Blues**
+- **Classical**
+- **Country**
+- **Disco**
+- **Hip-hop**
+- **Jazz**
+- **Metal**
+- **Pop**
+- **Reggae**
+- **Rock**
 
-### 1. **Blues:**
-   - **Precision:** 0.68 — Out of all the predictions made as "blues," 68% were correct.
-   - **Recall:** 0.65 — Out of all the true "blues" samples, 65% were correctly predicted.
-   - **F1-Score:** 0.67 — This is the harmonic mean of precision and recall, indicating a moderate performance. 
-   - **Analysis:** The model confuses blues with other genres, especially rock (20%), suggesting a similarity in features between these two genres.
+The performance of the model has been evaluated using the following metrics:
+- **Precision**: Ratio of correctly predicted positive observations to all predicted positive observations.
+- **Recall**: Ratio of correctly predicted positive observations to all observations in the actual class.
+- **F1-score**: Weighted average of precision and recall.
+- **Support**: Number of actual occurrences of each class in the dataset.
 
-### 2. **Classical:**
-   - **Precision:** 0.95 — The model is highly confident in predicting classical music.
-   - **Recall:** 0.95 — It also detects almost all classical music samples.
-   - **F1-Score:** 0.95 — Very high performance. 
-   - **Analysis:** Classical music is easily distinguishable by the model, likely due to its unique features compared to other genres.
+---
 
-### 3. **Country:**
-   - **Precision:** 0.92 — High precision, meaning when the model predicts "country," it is usually correct.
-   - **Recall:** 0.55 — However, the recall is quite low, indicating that many actual "country" samples are misclassified (only 55% correctly identified).
-   - **F1-Score:** 0.69 — Reflects the imbalance between precision and recall.
-   - **Analysis:** The model confuses "country" with "rock" and "blues" (35% combined confusion with other genres), which may suggest similar audio patterns or features between these genres.
+## Performance Metrics Overview
 
-### 4. **Disco:**
-   - **Precision:** 0.73 — Lower precision; it often predicts disco incorrectly.
-   - **Recall:** 0.80 — Fairly good at detecting disco samples.
-   - **F1-Score:** 0.76 — Overall decent performance.
-   - **Analysis:** Disco might be mistaken for "pop" (10%), which is understandable as both genres share upbeat rhythms and instrumentation.
+### Classification Report
 
-### 5. **Hiphop:**
-   - **Precision:** 0.94 — Excellent precision, meaning the model predicts hip-hop very accurately.
-   - **Recall:** 0.80 — However, some hip-hop samples are misclassified (likely with reggae and disco).
-   - **F1-Score:** 0.86 — Overall, strong performance.
-   - **Analysis:** There is a slight confusion with genres like disco and reggae, which share rhythmic similarities with hip-hop.
+The following table summarizes the model's performance across all genres:
 
-### 6. **Jazz:**
-   - **Precision:** 0.86 — Strong precision.
-   - **Recall:** 0.90 — High recall; the model detects most jazz samples.
-   - **F1-Score:** 0.88 — Excellent overall performance.
-   - **Analysis:** Jazz is fairly well predicted, but there are slight confusions with blues and classical music.
+| Genre      | Precision | Recall | F1-score | Support |
+|------------|-----------|--------|----------|---------|
+| **Blues**      | 0.68      | 0.65   | 0.67     | 20      |
+| **Classical**  | 0.95      | 0.95   | 0.95     | 20      |
+| **Country**    | 0.92      | 0.55   | 0.69     | 20      |
+| **Disco**      | 0.73      | 0.80   | 0.76     | 20      |
+| **Hip-hop**    | 0.94      | 0.80   | 0.86     | 20      |
+| **Jazz**       | 0.86      | 0.90   | 0.88     | 20      |
+| **Metal**      | 0.90      | 0.95   | 0.93     | 20      |
+| **Pop**        | 0.81      | 0.65   | 0.72     | 20      |
+| **Reggae**     | 0.82      | 0.70   | 0.76     | 20      |
+| **Rock**       | 0.40      | 0.70   | 0.51     | 20      |
 
-### 7. **Metal:**
-   - **Precision:** 0.90 — Very high precision.
-   - **Recall:** 0.95 — The model detects almost all metal samples.
-   - **F1-Score:** 0.93 — Excellent overall performance.
-   - **Analysis:** Metal, with its distinct heavy instrumentation, is well classified by the model.
+### Overall Metrics:
+- **Accuracy**: 0.77
+- **Macro Average**: Precision: 0.80, Recall: 0.77, F1-score: 0.77
+- **Weighted Average**: Precision: 0.80, Recall: 0.77, F1-score: 0.77
 
-### 8. **Pop:**
-   - **Precision:** 0.81 — Decent precision.
-   - **Recall:** 0.65 — Many pop samples are misclassified (with disco, hip-hop, and reggae).
-   - **F1-Score:** 0.72 — Overall, performance is moderate.
-   - **Analysis:** Pop is often confused with similar genres like disco and hip-hop, which have overlapping musical elements.
+---
 
-### 9. **Reggae:**
-   - **Precision:** 0.82 — Strong precision.
-   - **Recall:** 0.70 — Some reggae samples are misclassified, possibly with rock and blues.
-   - **F1-Score:** 0.76 — Good overall performance.
-   - **Analysis:** Reggae shares rhythmic patterns with rock and hip-hop, leading to occasional misclassifications.
+## Visualizations and Detailed Insights
 
-### 10. **Rock:**
-   - **Precision:** 0.40 — Low precision, meaning when the model predicts "rock," it often gets it wrong.
-   - **Recall:** 0.70 — However, it detects most rock samples, but misclassifies them with other genres (blues and country).
-   - **F1-Score:** 0.51 — Low F1-score, indicating poor performance compared to other genres.
-   - **Analysis:** Rock is often confused with blues, country, and metal, all of which share certain musical elements like electric guitars and similar tempo.
+### Confusion Matrix
 
-## Key Insights:
-- **Classical and metal** have the best performance, as these genres have very distinct features (e.g., orchestration in classical, distorted guitars in metal).
-- **Rock, blues, and country** show more confusion with each other, likely because they share certain instrumentation and rhythm patterns. The model struggles to distinguish these genres.
-- **Pop and disco** also have some overlap, which makes sense since they both feature upbeat, danceable rhythms.
+![Confusion Matrix](./Confusion%20Matrix.png)
 
-## Next Steps to Improve Performance:
-1. **Increase Data:** Add more training data for confusing genres like rock, country, and blues to help the model learn better distinctions between them.
-2. **Fine-tune Model:** Adjust model hyperparameters like learning rate, batch size, and number of epochs to improve training.
-3. **Data Augmentation:** Apply audio data augmentation techniques like time stretching, pitch shifting, or noise injection to make the model more robust.
-4. **Model Enhancements:** Experiment with deeper or more complex models, or try adding additional features like tempo, beat tracking, or harmonic components.
-5. **Confusion Matrix Analysis:** Focus on the pairs of genres that show confusion and try to understand if there are certain overlapping features causing the issue (e.g., overlapping frequencies in mel-spectrograms). 
+The confusion matrix offers detailed insights into how well the model distinguishes between different genres. It highlights:
+- High accuracy for genres such as **Classical**, **Jazz**, and **Metal**.
+- **Country** and **Rock** are challenging to classify correctly, as evidenced by significant misclassification into other genres.
+- **Blues** also shows moderate confusion with **Rock** and other genres, possibly due to overlapping musical characteristics.
 
-This analysis indicates that while the model performs well on certain distinct genres, it struggles with genres that have similar audio characteristics.
+### Precision-Recall Curves
 
+![Precision Recall Curve](./precision_recall_curve.png)
+
+The precision-recall curves provide a graphical representation of the trade-off between precision and recall for each genre. 
+
+- **Classical**, **Metal**, and **Jazz** demonstrate nearly optimal curves, which suggests a robust balance between precision and recall for these genres.
+- **Blues** and **Country** exhibit weaker performance, with declining precision at lower recall values. This indicates that the model struggles with these genres when it attempts to recall all positive instances.
+
+### ROC Curves and AUC Scores
+
+![ROC Curve](./roc_curve.png)
+
+The ROC curves plot the true positive rate (recall) against the false positive rate, giving a clearer view of how well the model distinguishes each genre. The Area Under the Curve (AUC) is a strong indicator of classification performance:
+- **Classical**, **Jazz**, and **Metal** achieve AUC scores above 0.90, indicating excellent classification capability.
+- **Blues**, **Country**, and **Rock** are more difficult to classify, with AUC scores around 0.80, highlighting a greater tendency for misclassification in these genres.
+
+---
+
+## Model Performance Analysis
+
+1. **High-Performing Genres**:
+   - **Classical**, **Jazz**, and **Metal** show consistently high precision, recall, and AUC scores. These genres likely have well-defined acoustic features such as distinctive instrumentations, rhythmic patterns, or harmonic characteristics that the model captures effectively.
+   - For these genres, the model displays near-perfect classification performance, with minimal misclassification across all metrics.
+
+2. **Challenging Genres**:
+   - **Blues**, **Country**, and **Rock** show lower classification performance. These genres often overlap with other genres in terms of melody and rhythm, leading to frequent misclassifications.
+   - **Country**, in particular, has a recall of only 55%, meaning that many instances of country music are classified incorrectly. This suggests that additional distinguishing features need to be incorporated to improve classification.
+
+3. **Insights from Precision-Recall Curves**:
+   - The precision-recall curves demonstrate the model's precision at varying recall levels for each genre. **Blues** and **Country** experience the most significant performance drop-off, reflecting the model's difficulty in confidently predicting these genres without increasing false positives.
+
+4. **ROC Curve and AUC Analysis**:
+   - The ROC curves provide insights into the model's ability to discriminate between different genres. **Classical** and **Jazz** achieve high AUC scores, confirming their relatively distinct sound profiles. 
+   - **Blues**, **Rock**, and **Country** have lower AUC scores, suggesting that the model may not capture their subtler musical variations as well as it does for more distinct genres like **Metal** or **Classical**.
+
+---
+
+## Recommendations for Improvement
+
+- **Data Augmentation**: Increasing the size of the dataset, particularly for underperforming genres, could help improve model performance. Augmenting the dataset through pitch-shifting, time-stretching, or adding noise could improve generalization for genres like **Blues** and **Country**.
+- **Advanced Architectures**: Experimenting with newer architectures such as **Transformer-based models** or **attention mechanisms** may help the model capture genre-specific nuances and improve classification for similar-sounding genres.
+- **Feature Engineering**: In addition to mel-spectrograms, other audio features like **tempo**, **beat structure**, and **instrumentation detection** could be incorporated to improve the model's ability to distinguish between similar genres.
+- **Hyperparameter Tuning**: Refining the hyperparameters, including learning rates, dropout rates, and optimization techniques, may yield improvements, particularly for genres where the model currently struggles.
+
+---
+
+## Conclusion
+
+The current model achieves a balanced performance across most genres, with an overall accuracy of **77%**. While it performs exceptionally well on genres like **Classical**, **Jazz**, and **Metal**, it struggles with genres that have more overlapping characteristics, such as **Blues** and **Country**. By addressing these limitations through targeted techniques such as data augmentation, feature engineering, and advanced architectures, there is significant potential to further improve the model's performance.
+
+---

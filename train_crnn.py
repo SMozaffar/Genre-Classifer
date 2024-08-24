@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 from genre_net import Genrefier_CRNN  
-from utils import extract_melgrams, load_dataset, plot_confusion_matrix
+from utils import extract_melgrams, load_dataset, plot_confusion_matrix, plot_precision_recall_curve, plot_roc_curve, print_classification_report, plot_confusion_matrix_heatmap
 
 
 # List of genres
@@ -32,25 +32,30 @@ def train_model(args):
         X_train, y_train, num_frames_train = load_dataset(args.train_dataset)
         X_test, y_test, num_frames_test = load_dataset(args.test_dataset)
     else:
-        X_train, y_train, num_frames_train = extract_melgrams(args.train_songs_list, args.multiframes, process_all_song=True)
-        X_test, y_test, num_frames_test = extract_melgrams(args.test_songs_list, args.multiframes, process_all_song=True)
+        if args.train:
+            X_train, y_train, num_frames_train = extract_melgrams(args.train_songs_list, args.multiframes, process_all_song=True)
+            X_test, y_test, num_frames_test = extract_melgrams(args.test_songs_list, args.multiframes, process_all_song=True)
+        if not args.train:
+            X_test, y_test, num_frames_test = extract_melgrams(args.test_songs_list, args.multiframes, process_all_song=True)
 
     # Debug: ensure 10 unique labels in train and test
-    print(f"Unique labels in y_train: {np.unique(y_train)}")
-    print(f"Unique labels in y_test: {np.unique(y_test)}")
+    #print(f"Unique labels in y_train: {np.unique(y_train)}")
+    #print(f"Unique labels in y_test: {np.unique(y_test)}")
 
     # Convert numpy arrays to PyTorch tensors, ensure correct shape
-    X_train = torch.tensor(X_train, dtype=torch.float32).view(-1, 1, 96, 1366).to(device)
+    #X_train = torch.tensor(X_train, dtype=torch.float32).view(-1, 1, 96, 1366).to(device)
     X_test = torch.tensor(X_test, dtype=torch.float32).view(-1, 1, 96, 1366).to(device)
-    Y_train = torch.tensor(np.eye(args.nb_classes)[y_train], dtype=torch.float32).to(device)
+    #Y_train = torch.tensor(np.eye(args.nb_classes)[y_train], dtype=torch.float32).to(device)
     Y_test = torch.tensor(np.eye(args.nb_classes)[y_test], dtype=torch.float32).to(device)
 
     # Create DataLoader for batching
-    train_dataset = TensorDataset(X_train, Y_train, torch.tensor(num_frames_train))
-    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
+    #train_dataset = TensorDataset(X_train, Y_train, torch.tensor(num_frames_train))
+    #train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
 
     # Initialize the model
     model = Genrefier_CRNN().to(device)
+    if args.load_weights:
+        model.load_state_dict(torch.load(args.weights_path))
 
     # Optimizer and loss 
     criterion = nn.CrossEntropyLoss()
@@ -81,12 +86,12 @@ def train_model(args):
                 # Accumulate loss
                 epoch_loss += loss.item()
 
-                # Print (path, label, genre) for one song in batch
-                song_index = i * args.batch_size  # Index of first song
-                song_path = song_paths[song_index]  # Path to song
-                song_label = y_train[song_index]  # Integer label of song
-                song_genre = genres[song_label]  # Corresponding genre
-                print(f"Song Path: {song_path}, Label: {song_label}, Genre: {song_genre}")
+                # DEBUGGING: Print (path, label, genre) for one song in batch (to make sure data is being loaded correctly)
+                # song_index = i * args.batch_size  # Index of first song
+                # song_path = song_paths[song_index]  # Path to song
+                # song_label = y_train[song_index]  # Integer label of song
+                # song_genre = genres[song_label]  # Corresponding genre
+                # print(f"Song Path: {song_path}, Label: {song_label}, Genre: {song_genre}")
 
             print(f"Epoch [{epoch}/{args.epochs}], Loss: {epoch_loss/len(train_loader)}")
 
@@ -127,8 +132,18 @@ def train_model(args):
         # Compute confusion matrix
         cnf_matrix = confusion_matrix(true_labels, predictions)
 
-        # Plot confusion matrix 
+        # Plot confusion matrix and heatmap
         plot_confusion_matrix(cnf_matrix, classes=np.arange(args.nb_classes), title='Confusion Matrix')
+        plot_confusion_matrix_heatmap(cnf_matrix, genres)
+
+        # Plot Precision-Recall Curve
+        plot_precision_recall_curve(true_labels, predictions, genres)
+
+        # Plot ROC curves and AUC
+        plot_roc_curve(true_labels, predictions, genres)
+
+        # Class-wise F1 scores
+        print_classification_report(true_labels, predictions, genres)
 
 
 # Command line arguments
@@ -150,6 +165,8 @@ if __name__ == "__main__":
     parser.add_argument('--weights_path', type=str, default='models_trained/', help='Path to save model weights')
     parser.add_argument('--test', type=int, default=1, help='Test the model after training')
     parser.add_argument('--train', type=int, default=1, help='Test the model after training')
+    parser.add_argument('--load_weights', type=bool, default=False, help='Load model weights')
+
 
     args = parser.parse_args()
 

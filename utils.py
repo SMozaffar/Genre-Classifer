@@ -6,7 +6,10 @@ import torchaudio
 import numpy as np
 import matplotlib.pyplot as plt
 import itertools
+import seaborn as sns
 from math import floor
+from sklearn.metrics import precision_recall_curve, roc_curve, auc, classification_report
+from sklearn.preprocessing import label_binarize
 from audio_processor2 import compute_melgram, compute_melgram_multiframe
 
 
@@ -144,4 +147,99 @@ def extract_melgrams(list_path, MULTIFRAMES, process_all_song, genre_mapping=Non
     return melgrams, labels, num_frames_total
 
 
+def plot_precision_recall_curve(Y_test, Y_pred, genres):
+    """
+    Plot precision-recall curves for each genre. Converts 1D arrays of predictions/labels
+    into multi-label binary arrays (one-hot encoded). Enhanced for better visualization.
+    """
+    num_classes = len(genres)
 
+    # Convert 1D arrays to 2D binary arrays using one-hot encoding (label binarization)
+    Y_test_binarized = label_binarize(Y_test, classes=np.arange(num_classes))
+    Y_pred_binarized = label_binarize(Y_pred, classes=np.arange(num_classes))
+
+    plt.figure(figsize=(12, 10))
+
+    colors = plt.get_cmap('tab10').colors  # Use 'tab10' colormap for distinct genre colors
+
+    # Iterate over each genre and plot precision-recall curve
+    for i in range(num_classes):
+        precision, recall, _ = precision_recall_curve(Y_test_binarized[:, i], Y_pred_binarized[:, i])
+        plt.plot(recall, precision, lw=2, color=colors[i], label=genres[i])
+
+    # Set labels and title
+    plt.xlabel("Recall", fontsize=14)
+    plt.ylabel("Precision", fontsize=14)
+    plt.title("Precision-Recall Curves for Each Genre", fontsize=16, fontweight='bold')
+
+    # Customize legend, grid, and layout
+    plt.legend(loc="lower left", fontsize=12)
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.tight_layout()
+
+    # Save and display the figure
+    plt.savefig("precision_recall_curve.png")
+    plt.show()
+
+
+def plot_roc_curve(Y_test, Y_pred, genres):
+    """
+    Plot ROC curves for each genre. Converts 1D arrays of predictions/labels
+    into multi-label binary arrays (one-hot encoded). Enhanced for better visualization.
+    """
+    num_classes = len(genres)
+
+    # Convert 1D arrays to 2D binary arrays using one-hot encoding (label binarization)
+    Y_test_binarized = label_binarize(Y_test, classes=np.arange(num_classes))
+    Y_pred_binarized = label_binarize(Y_pred, classes=np.arange(num_classes))
+
+    plt.figure(figsize=(12, 10))
+
+    colors = plt.get_cmap('tab10').colors  # Use 'tab10' colormap for distinct genre colors
+
+    # Iterate over each genre and plot ROC curve
+    for i in range(num_classes):
+        fpr, tpr, _ = roc_curve(Y_test_binarized[:, i], Y_pred_binarized[:, i])
+        roc_auc = auc(fpr, tpr)
+        plt.plot(fpr, tpr, lw=2, color=colors[i], label=f'{genres[i]} (AUC = {roc_auc:.2f})')
+
+    # Plot the baseline for random guessing
+    plt.plot([0, 1], [0, 1], linestyle='--', lw=2, color='gray', label='Random Guessing')
+
+    # Set labels and title
+    plt.xlabel("False Positive Rate", fontsize=14)
+    plt.ylabel("True Positive Rate", fontsize=14)
+    plt.title("ROC Curves for Each Genre", fontsize=16, fontweight='bold')
+
+    # Customize legend, grid, and layout
+    plt.legend(loc="lower right", fontsize=12)
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.tight_layout()
+
+    # Save and display the figure
+    plt.savefig("roc_curve.png")
+    plt.show()
+
+
+def print_classification_report(Y_test, Y_pred, genres):
+    """
+    Prints the classification report using true and predicted labels.
+    Adjusts for Y_test being a 1D array of labels instead of multi-label format.
+    """
+    # Y_test and Y_pred are already 1D arrays of class indices
+    Y_test_labels = Y_test  # True labels
+    Y_pred_labels = Y_pred  # Predicted labels
+
+    # Print classification report
+    print("Classification Report:")
+    print(classification_report(Y_test_labels, Y_pred_labels, target_names=genres))
+
+
+def plot_confusion_matrix_heatmap(cnf_matrix, genres):
+    plt.figure(figsize=(10, 7))
+    sns.heatmap(cnf_matrix, annot=True, fmt='.2f', cmap='Blues', xticklabels=genres, yticklabels=genres)
+    plt.title("Confusion Matrix Heatmap")
+    plt.xlabel('Predicted label')
+    plt.ylabel('True label')
+    plt.savefig('confusion_matrix_heatmap.png')
+    plt.show()
