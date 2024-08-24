@@ -1,0 +1,462 @@
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ella Baila Sola.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Mind Over Matter (Reprise).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Evil.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ain't No Sunshine.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Stars Will Fall.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Awaken.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Fame.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Santa Cruz Tomorrow.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Arcade.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cumbia Espacial.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Stop This Flame.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Epilogue.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/X.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Moon.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Power.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Wait a Minute!.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Tieduprightnow.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Whip It.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/City Of Stars - From "La La Land" Soundtrack.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Spins.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Like I Can.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/One Day.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Snowshoes.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Outstanding.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/You Are My Sunshine.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Nosebleed Seats.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Borderline.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cash In Cash Out.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Take It Easy - 2013 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Madan (King).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/In My Room.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/COULD BE WRONG.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lonely.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Althea - 2013 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Light.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Porcelain.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sonnentanz - Sun Don't Shine.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lights Are On.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Prayer.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Ballad of Eddie Jabuley.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/You Know How We Do It.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/NDA.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hometown.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Bag End.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/PRIDE..wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Flowers in Your Hair.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/sdp interlude.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Paris.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/November 18th.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Smoke Two Joints.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/1977.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Wonder.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Feel So Close - Radio Edit.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Drank & Drugs.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Send Them Off!.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ruby Fields.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Goth.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Never Be Like You (feat. Kai).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/PERSIAN RUGS.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Always Forever.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Chateau (Feel Alright).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Heat Waves.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Riders on the Storm.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Solitude - Felsmann + Tiley Reinterpretation.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Taco Truck x VB.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Jerk It Out.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Island In The Sun.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Slide (feat. Frank Ocean & Migos).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Drugs.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Free Bird.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/She Knows (feat. Amber Coffman & Cults).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Electric Feel.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Panama.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Armaghetton - Aeroplane Extended Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Taro.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Too Many Nights (feat. Don Toliver & with Future).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Window.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/LONDON (feat. J. Cole).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/To Build A Home.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Girl (feat. KAYTRANADA).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/High Enough.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Stubborn Love.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/say it first.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Youth.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Let It Happen.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Dear To Me.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Only Human.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cielito Lindo.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/MIDDLE CHILD.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ode To The Mets.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Forever Young.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Trance (with Travis Scott & Young Thug).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Alive.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/La La La.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cigarette Daydreams.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Notion.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Way You'd Love Her.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/MANGO (feat. Adi Oasis).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/En El Radio Un Cochinero.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Song For No One.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/1979.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Machu Picchu.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/White Sails.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Gettin' By, High and Strange.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Look.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Can I Call You Tonight?.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Strangers.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hotel California - 2013 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Kuzola.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/My Kind of Woman.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Pool.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hold Me.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Dreaming.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/212.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/A Bird's Last Look.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/First Day Of My Life.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Jimmy Cooks (feat. 21 Savage).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/After The Storm (feat. Tyler, The Creator & Bootsy Collins).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/On & On.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Kiss With A Fist.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lights Down Low.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Summer '68.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Inner Light.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The 90s.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Let's Groove.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Running Away.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Will Survive - Single Version.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cola x Nanana.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Then Came the Last Days of May.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Surrender To Me.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Mind Over Matter.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Still Dreaming.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I KNOW ?.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Atomic Vomit.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Eternal Summer.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sage.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Undercover Martyn.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Time (You and I).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Guilty Conscience - Tame Impala Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/We Are The People.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ho Hey.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Innerbloom.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Glue x How Deep Is Your Love - Remake Cover.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/On My Knees.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Left Hand Free.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/September.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hometown (intro).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Flashed Junk Mind.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Take a Walk.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Tell Me.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Los Angeles.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Photograph.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lemon Glow.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Tessellate.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/ザ・ワード II.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Want To Hold Your Hand - Remastered 2015.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Amour plastique.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Me Jalé Pal Antro.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Chamber Of Reflection.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Tidalwave.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Drive Slow.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hope.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Dreaming - Gibson Parker Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Think I Like When It Rains.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Come Down.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Tangerine - Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Behind The Sun.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Don't Stop 'Til You Get Enough.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Home.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Atlantis.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Can't You See.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/A Rose Blooms in Chaos.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/MY EYES.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hope - Instrumental.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Get By.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sol Del Sur.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sweet Disposition.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Violent Crimes.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sleep Walk.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Song on the Beach.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cola - Club Mix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/agony.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/life is funny.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/hello!.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Stormy Weather.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Mando Calrissian.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cooks.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Paris City Jazz.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lovin' Feeling.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lithonia.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Psycho Killer - Live.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/WASTE.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Age Ye Rooz.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Gambler.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Save Your Tears.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Busy Earnin'.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Agitations tropicales.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Surfing in Iceland.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/City Of Stars.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/California Dreamin' - Single Version.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Stolen Dance.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Crazy.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cherry.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Brazil.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Doses & Mimosas.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Brown Eyed Girl.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Pluto Projector.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Oh! Sweet Nuthin' - 2015 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Brooklyn Bridge To Chorus.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Me Voy Pa'l Pueblo.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Heaven.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/How I Get Myself Killed.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Bedford Falls.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Take Me Where Your Heart Is.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Belize (feat. MF DOOM).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/DEVOTION.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Total Eclipse of the Heart.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Candela.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Will I See You Again?.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Beggin'.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hate It Or Love It.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Safe And Sound.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Crew (feat. Brent Faiyaz & Shy Glizzy).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Kilby Girl.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Rapp Snitch Knishes feat. Mr. Fantastik.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sweet Thang.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/saw u in a dream.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/End of Beginning.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Looking Out for You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Glue.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/MILLION DOLLAR BABY.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Don't Wanna Talk (I Just Wanna Dance).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Bad Habit.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Adults Are Talking.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Analie.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/La vie en rose - Single Version.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/La Diabla.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hold On, We're Going Home.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Zombie.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/There Is a Light That Never Goes Out - 2011 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Freaking Out the Neighborhood.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Need Some Sleep.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Aces.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Found God in a Tomato.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ey Joonam.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sweater Weather.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Where Are You Now.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/rx.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Smalltown Boy.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/K..wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Know The End.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Genius (feat. Sia, Diplo, and Labrinth).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/It's Called: Freefall.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sultans of Swing.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Domestic Bliss.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sedona.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Food for the Soul.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Helium.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Miss You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Instant Crush (feat. Julian Casablancas).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Something About You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ophelia.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ava.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Happy Endings.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Those Eyes.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/ON TOP.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/High You Are.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Arash.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Pink + White.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Thank You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Saghi.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Tongue Tied.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/DESTINATIONS.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Dissolve Me.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cancun Sega - luxuriøus Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/White Christmas.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Space Song.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/notice me - acoustic.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Happier Than Ever.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lamb's Wool.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/7 Weeks & 3 Days.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/STAY (with Justin Bieber).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Blood On The Leaves.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cissy Strut.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Swing Lynn.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/When I'm Small.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Righteous.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Time.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I See Fire.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Maps.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/You Are the Right One.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Mission.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Funky Thang.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Rock with You - Single Version.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Love You So.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Didn't I.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/INTERLUDE.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/First Flight To Mars.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Perfect Girl.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Aquamarine (feat. Michael Kiwanuka).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Let Go.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hot Rod.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/All The Stars (with SZA).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Young Dumb & Broke.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Succession - Andante Risoluto.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Eu Sou O Mestre Dos Magos.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/EARFQUAKE.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Casita.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Fragile.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Shut up My Moms Calling.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Where You Are.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/stripclub music.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Rips in Jeans.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Your Love.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Why.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Walkin' On The Sun.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Less I Know The Better.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Way I Are.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/B.O.T.A. (Baddest Of Them All) - Edit.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Gypsy Woman (She's Homeless) (La Da Dee La Da Da) - Basement Boy Strip To The Bone Mix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Radio.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Bongo Bong.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Funny Thing.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Strawberry Letter 23.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Gloria.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/You Were Right.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Che Konam - Bandari Version.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Thrill.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Somewhere Only We Know.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Where Is My Mind? - 2007 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Vanille fraise.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/September - Instrumental.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Vibrations.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Tangerine.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Colors.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/What You Know.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Difference.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Where'd All the Time Go?.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Beat Goes On.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Good News.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Young Folks.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Rocky.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/You've Done Enough.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Reborn.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/forever&more.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lift Off.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Can't Sleep.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Dancin - Krono Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Gap in the Clouds.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Soledad y el Mar (feat. Los Macorinos).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Beach.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/High Tops.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/All I Want.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Nevermore.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cowgirl in the Sand - 2009 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Put It on Me.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cradles.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Glory Box.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/At Last.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Solitude.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Changing of the Seasons.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/This Song Is Not About A Girl.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Need 2.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Heaven Takes You Home (feat. Connie Constance) - Alternative Mix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Forest Whitaker.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Massive.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Song 2 - 2012 Remaster.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Black Out Days - Future Islands Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Here I Go.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Yesterday - Remastered 2009.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lost.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Fade Into You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Choking on Flowers.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Call It What You Want.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/It Was A Good Day.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Je te laisserai des mots.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Walk Em Down (Don't Kill Civilians) [with 21 Savage & feat. Mustafa].wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Evergreen.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Lonesome Town.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Saturn.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Big Jet Plane.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Main Title (from "Taxi Driver").wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Was Never There.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hot Blooded.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Suddenly (feat. Rebecca) - Radio Edit.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Dancing in the Moonlight (feat. NEIMY).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Jailhouse Rock.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Up All Night.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Kids.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Gamesofluck.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The King.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/West Coast Love.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Séquences - Parcels Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Under Cover of Darkness.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Jungle.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/See You Again (feat. Kali Uchis).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Social Cues.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Somebody (2024).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cry.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Nothing.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Someone Like You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Rose Pink Cadillac.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Ivy.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Turn On The Lights again.. (feat. Future).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Leave The Door Open.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/The Darkness That You Fear.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Black (feat. Norah Jones).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/I Wanna Be Yours.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Gymnopédie No. 1.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Until I Found You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/the BLACK seminole..wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Champagne Coast.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Intro.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Slow Cheetah.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/In This Shirt.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Canary Islands.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Bulletproof.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Green Onions.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/World Hold On - FISHER Rework.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Where's My Love.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Mariage d'amour (Piano Solo).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Don't Start Now.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Morning Coffee.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Girl from the North Country.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Buttons.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/this feeling.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Killer Whale.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Hurt.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Yo x Ti, Tu x Mi.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Paint The Town Red.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sign of the Times.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Luckiest Man.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Gooey.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/We Come Running.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Moth To A Flame (with The Weeknd).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Young.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Apocalypse.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Don't Think Twice, It's All Right.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Bul Beni.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Watch This - ARIZONATEARS Pluggnb Remix.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Coastline.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sure Thing.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Chan Chan.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Smthng.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Because You Move Me.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Music Sounds Better With You.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Silver Soul.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Honeypie.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Time to Pretend.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Laundry Room.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/midnight sun (ramzoid x hal walker).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Cherry Flavoured.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Sometimes.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/play the part.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/It's My Life.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Margaritaville.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Praise God.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/End Credits - "Action That".wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Chamber of Reflection (Live Cover).wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Die Trying.wav
+/Users/shawyan/Desktop/Data Portfolio/Genre-Classifer/spotify_samples/Firestone.wav

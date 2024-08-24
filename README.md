@@ -41,7 +41,7 @@ The model classifies audio into one of the following 10 genres:
 - **Sampling rate**: 22.05 kHz
 - **Genres**: Blues, Classical, Country, Disco, HipHop, Jazz, Metal, Pop, Reggae, Rock
 
-You can download the dataset from the [official GTZAN dataset page](http://marsyas.info/downloads/datasets.html).
+You can download the dataset from the [GTZAN dataset page](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification).
 
 ### Audio Preprocessing
 
@@ -175,8 +175,6 @@ The ROC curves plot the true positive rate (recall) against the false positive r
 4. **ROC Curve and AUC Analysis**:
    - The ROC curves provide insights into the model's ability to discriminate between different genres. **Classical** and **Jazz** achieve high AUC scores, confirming their relatively distinct sound profiles. 
    - **Blues**, **Rock**, and **Country** have lower AUC scores, suggesting that the model may not capture their subtler musical variations as well as it does for more distinct genres like **Metal** or **Classical**.
-
----
 
 ## Recommendations for Improvement
 
