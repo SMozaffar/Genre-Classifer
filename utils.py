@@ -10,7 +10,7 @@ import seaborn as sns
 from math import floor
 from sklearn.metrics import precision_recall_curve, roc_curve, auc, classification_report
 from sklearn.preprocessing import label_binarize
-from audio_processor2 import compute_melgram, compute_melgram_multiframe
+from audio_processor import compute_melgram, compute_melgram_multiframe
 
 
 # Utility functions for data loading, saving, processing
